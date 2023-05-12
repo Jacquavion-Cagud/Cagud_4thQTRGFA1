@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <header id="MainHeader">Supporting UNICEF: A Cause for the Better</header>
+    <p id="Content">
+        We are the United Nations International Children's Emergency Fund (UNICEF). Our goal as a charity is to advocate for the protection of children's rights, to help meet their basic needs and to expand their opportunities to reach their full potential.
+        A reason that you should support us is because we allocate the funds we recieve to the children in need of help from all over the world, so in a sense, your helping them with your kind donations.
+        Not only do we support them financially, but we also support them through education, as we aim to give every child an education. 
+        Lastly, UNICEF aims to fight against gender inequality, as we are currently arranging programs that shows the importances of both boys and girls. 
+    </p>
+    <article>
+        <div id="SignUp">Sign Up</div>
+        <form id="SingUp">
+            <p id="LoginSection">
+                
+                <label for="fname">First Name:</label><br>
+                <input type="text" id="fname" name="fname" value="First Name" required title = "This field is required."><br>
+            <br>
+            <br>
+                
+                <label for="lname">Last Name:</label><br>
+                <input type="text" id="lname" name="lname" value="Last Name" required title = "This field is required."><br>
+            <br>
+                <input type="radio" id="male" name="fav_language" value="Male">
+                <label for="male">Male</label><br>
+                <input type="radio" id="female" name="fav_language" value="Female">
+                <label for="female">Female</label><br>
+            <br>
+                <label for="email">E-Mail Address:</label><br>
+                <input type="text" id="email" name="email" value="E-Mail Address" required title = "This field is required."><br>
+            </p>
+            <div id="Alert"></div>
+            <br>
+            <br>
+            <button id="Botun" onclick="Confirm()">Sign Up</button>
+            <button id="Rset" onclick="Reset()">Reset</button>
+        </form>
+    </article>
+</body>
+</html>

@@ -1,0 +1,81 @@
+#MainHeader {
+    padding: 20px;
+    width: 900px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    color: rgb(0, 0, 0);
+    font: medium;
+    font-size: 50px;
+    background-color: #3686b9;
+    border-radius: 20px 20px 20px 20px;
+    border: 3px solid black;
+}
+
+body {
+    background-image: url(UNICEF-LOGO.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+#LoginSection {
+    padding: 20px;
+    background-color: white;
+    width: min-content;
+}
+
+button {
+    padding: 20px;
+    background-color: white;
+    width: auto;
+}
+
+article {
+    padding: 20px;
+    width: min-content;
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px 20px 20px 20px;
+    border: 2px solid #145679;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+#SignUp {
+    padding: 20px;
+    width: min-content;
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px 20px 20px 20px;
+    border: 2px solid #145679;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+
+#Content {
+    padding: 20px;
+    background-color: white;
+    font-size: 30px;
+    border-radius: 20px 20px 20px 20px;
+    border: 2px solid #145679;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+#indexlist {
+    list-style: none;
+    margin: 0px;
+    padding: 0;
+    bottom: 0;
+  
+}
+
+#SignUp {
+    width: auto;
+    text-align: center;
+}
+
